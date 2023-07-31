@@ -1,0 +1,6 @@
+name =str(input("Enter your name"))
+age =int(input("Enter your age"))
+date =str(input("Enter your date of birth"))
+print(name)
+print(age)
+print(date)
