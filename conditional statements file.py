@@ -25,4 +25,4 @@ def check_area(area):
 
 area_rectangular(10,2)
 area_circle(-1)
-area_triangle(5,5)
+area_triangle(5,7)
