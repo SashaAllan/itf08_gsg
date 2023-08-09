@@ -17,24 +17,24 @@ while True:
      if menu == 1:
         num1 = int(input("the first number"))
         num2 = int(input(" the second number"))
-        print("The sum is =",x+y )
+        print("The sum is =",num1+num2 )
         print("*************************")
      elif menu == 2:
         num1 = int(input("the first number"))
         num2 = int(input(" the second number"))
-        print("The Substract =", x-y)
+        print("The Substract =", num1-num2)
         print("*************************")
 
      elif menu == 3:
         num1 = int(input("the first number"))
         num2 = int(input(" the second number"))
-        print("The Multiply is =",x*y)
+        print("The Multiply is =",num1*num2)
         print("*************************")
 
      elif menu == 4:
         num1 = int(input("the first number"))
         num2 = int(input(" the second number"))
-        print("The Devision is =",x/y)
+        print("The Devision is =",num1/num2)
         print("*************************")
 
      elif menu == 5:
