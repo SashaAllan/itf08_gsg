@@ -15,26 +15,25 @@ while True:
         menu = int(input("Invalid input,Enter valid Selction "))
 
      if menu == 1:
-        x = int(input("the first number"))
-        y = int(input(" the second number"))
+        num1 = int(input("the first number"))
+        num2 = int(input(" the second number"))
         print("The sum is =",x+y )
         print("*************************")
      elif menu == 2:
-        x = int(input("the first number"))
-        y = int(input(" the second number"))
+        num1 = int(input("the first number"))
+        num2 = int(input(" the second number"))
         print("The Substract =", x-y)
         print("*************************")
 
      elif menu == 3:
-        x = int(input("the first number"))
-        y = int(input(" the second number"))
+        num1 = int(input("the first number"))
+        num2 = int(input(" the second number"))
         print("The Multiply is =",x*y)
         print("*************************")
 
      elif menu == 4:
-        x = int(input("the first number"))
-
-        y = int(input(" the second number"))
+        num1 = int(input("the first number"))
+        num2 = int(input(" the second number"))
         print("The Devision is =",x/y)
         print("*************************")
 
