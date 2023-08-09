@@ -1,3 +1,42 @@
+
+def sum ():
+    num1 = int(input("the first number"))
+    num2 = int(input(" the second number"))
+    print("The sum is =", num1 + num2)
+    print("*************************")
+def substract():
+    num1 = int(input("the first number"))
+    num2 = int(input(" the second number"))
+    print("The Substract =", num1 - num2)
+    print("*************************")
+def multiply():
+    num1 = int(input("the first number"))
+    num2 = int(input(" the second number"))
+    print("The Multiply is =", num1 * num2)
+    print("*************************")
+
+def devision():
+    num1 = int(input("the first number"))
+    num2 = int(input(" the second number"))
+    print("The Devision is =", num1 / num2)
+    print("*************************")
+
+def triangle_area():
+
+    base = int(input("enter the base triangle area"))
+    length = int(input("enter the length triangle area"))
+    print("The triangle area is = ",.5*base*length)
+    print("*************************")
+def circle_area():
+    radius = int(input("enter the radius area"))
+    print("The circle area is =", 3.14 * (radius ** 2))
+    print("*************************")
+def rectangle_area():
+    length = int(input("enter the length rectangle area"))
+    width = int(input("enter the width rectangle area"))
+    print("The rectangle area is =", length * width)
+    print("*************************")
+
 while True:
 
      menu = int(input("1. Sum\n" 
@@ -15,44 +54,20 @@ while True:
         menu = int(input("Invalid input,Enter valid Selction "))
 
      if menu == 1:
-        num1 = int(input("the first number"))
-        num2 = int(input(" the second number"))
-        print("The sum is =",num1+num2 )
-        print("*************************")
+        sum()
      elif menu == 2:
-        num1 = int(input("the first number"))
-        num2 = int(input(" the second number"))
-        print("The Substract =", num1-num2)
-        print("*************************")
-
+        substract()
      elif menu == 3:
-        num1 = int(input("the first number"))
-        num2 = int(input(" the second number"))
-        print("The Multiply is =",num1*num2)
-        print("*************************")
-
+       multiply()
      elif menu == 4:
-        num1 = int(input("the first number"))
-        num2 = int(input(" the second number"))
-        print("The Devision is =",num1/num2)
-        print("*************************")
-
+       devision()
      elif menu == 5:
-        base = int(input("enter the base triangle area"))
-        length = int(input("enter the length triangle area"))
-        print("The triangle area is = ",.5*base*length)
-        print("*************************")
+       triangle_area()
 
      elif menu == 6:
-        radius = int(input("enter the radius area"))
-        print("The circle area is =",3.14*(radius**2))
-        print("*************************")
-
+       circle_area()
      elif menu == 7:
-        length = int(input("enter the length rectangle area"))
-        width = int(input("enter the width rectangle area"))
-        print("The rectangle area is =",length*width)
-        print("*************************")
+       rectangle_area()
 
      elif menu == 8:
         break
