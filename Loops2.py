@@ -1,9 +1,8 @@
-
 numberOfStudents = int(input("enter the number of students"))
-numberOfMarks = int(input("enter the number of marks"))
-my_marks = []
 for numberOfStudents in range(0, numberOfStudents) :
+  numberOfMarks = int(input("enter the number of marks"))
   print(f"enter for student  {numberOfStudents+1} ")
+  my_marks = []
   for numberOfStudents in range(0, numberOfMarks):
        marks = int(input(f"Enter Mark  {numberOfStudents+1} :"))
        my_marks.append(marks)
