@@ -10,5 +10,3 @@ def find_smallest_and_largest(numbers_list):
 
 my_list=[]
 for i in range(0,6):
-
-
