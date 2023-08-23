@@ -29,7 +29,7 @@ while True:
                 break
         if not is_exist:
             print("product not exit")
-    elif selection == 3:
+    elif selection == 3 :
         print("3")
 
         product_number = input("Enter product number :")
