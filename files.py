@@ -1,4 +1,4 @@
-with open("sasha.txt","w") as files:
+with open("data.txt", "w") as files:
 
  name=input("Enter student name :  ")
  age=input("Enter student age :  ")
