@@ -41,12 +41,11 @@ class Student:
            print(f"course :{course.course_name},  mark :{course.course_mark}")
 
    def get_student_average(self):
-            if not  self.courses_list:
-                return 0
 
             total_marks = sum(course.course_mark for course in self.courses_list )
-            return total_marks / len(self.courses_list)
-
+            if len (self.courses_list) > 0:
+              return total_marks / len(self.courses_list)
+            else: return 0
 # TODO 9
 students =[]
 
